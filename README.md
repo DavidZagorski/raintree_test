@@ -44,11 +44,11 @@ Assignments:
 
 3. Provide a MySQL query that produces the insurancecode and the average payments per visit for the insurancecode that had the highest average payments per visit in 2017.
 
-#1 Solution
+#1 Solution<br> 
 Avoid using any quotes. Writing SQL can be frustrating and writing SQL that involves quoted identifiers is even more frustrating.<br> 
 Using Lowercase. Identifiers should be written entirely in lower case. Tables, views, columns and etc. <br> 
 Underscores separate words. Object name that are comprised of multiple words should be separeated by underscores.<br> 
-
+Change DOS to <code>appointment_date</code>. Newcomer who is going to use a table for first time can get confused by it. Documentation can solve this problem but, if you have proper name you don't need to look into documentation to understand what this column stands for.<br>
 
 #3 Solution 
 
