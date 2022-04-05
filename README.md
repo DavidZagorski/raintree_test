@@ -1,4 +1,4 @@
-# test
+# Raintree_Assignment
 
 ```Create Table statement for the data included:
 CREATE TABLE 'testAssignmentTable' (
@@ -30,7 +30,8 @@ ChargesExpected - Charges expected to receive from the insurance for the appoint
 ChargeUnits - Metric of how many billable procedures/multiples of a procedure were performed.<br> 
 PaidToCharges - Payments.<br> 
 AdjustedByExpected - Charges that are written off for various reasons.<br> 
-NewPatients - Number of patients who had their first visit. Visits - Total visits.<br>
+NewPatients - Number of patients who had their first visit. <br>
+Visits - Total visits.<br>
 
 Table explanation:
 
@@ -46,13 +47,18 @@ Assignments:
 
 #1 Solution<br> 
 <hr>
-Avoid using any quotes. Writing SQL can be frustrating and writing SQL that involves quoted identifiers is even more frustrating.<br> 
+1.)Change table name cause its too long. For example <code>test_table</code>
 
-Using Lowercase. Identifiers should be written entirely in lower case. Tables, views, columns and etc. <br> 
+2.)Avoid using any quotes. Writing SQL can be frustrating and writing SQL that involves quoted identifiers is even more frustrating.<br> 
 
-Underscores separate words. Object name that are comprised of multiple words should be separeated by underscores.<br> 
+3.)Using Lowercase. Identifiers should be written entirely in lower case. Tables, views, columns and etc. <br> 
 
-Change DOS to <code>appointment_date</code>. Newcomer who is going to use a table for first time can get confused by it. Documentation can solve this problem but, if you have proper name you don't need to look into documentation to understand what this column stands for.<br>
+4.)Underscores separate words. Object name that are comprised of multiple words should be separeated by underscores.<br> 
+
+5.)Change DOS to <code>appointment_date</code>. Newcomer who is going to use a table for first time can get confused by it. Documentation can solve this problem but, if you have proper name you don't need to look into documentation to understand what this column stands for.<br>
+
+6.)PaidToCharges can be changed to <code>payments</code>. We can reduce column name length together with giving more precise naming. Similar issue is discussed in 5.).
+
 
 #3 Solution 
 
