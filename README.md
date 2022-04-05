@@ -51,7 +51,8 @@ Assignments:
 
 #3 Solution 
 
-```SELECT<
+```
+SELECT
     InsuranceCode,
     (sum(PaidToChanges)/sum(Visits)) as avg_price
 FROM 
