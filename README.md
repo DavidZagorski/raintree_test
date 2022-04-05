@@ -22,7 +22,7 @@ KEY LocationCode (LocationCode)
 ```
 Column explanation:
 
-DOS - The date the appointment took place on. 
+DOS - The date the appointment took place on.<br>
 LocationCode - The location code for the clinic the appointment took place at. 
 InsuranceCode - The insurance responsible for covering the charges of the appointment. 
 InsuranceFC - Grouping of insurances of similar type/rules. 
