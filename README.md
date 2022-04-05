@@ -1,23 +1,23 @@
 # test
 
 ```Create Table statement for the data included:
-CREATE TABLE testAssignmentTable (
-id int(10) NOT NULL AUTO_INCREMENT,
-DOS date DEFAULT NULL,
-LocationCode char(5) DEFAULT NULL,
-InsuranceCode char(5) DEFAULT NULL,
-InsuranceFC char(5) DEFAULT NULL,
-ChargesExpected decimal(10,2) DEFAULT NULL,
-ChargeUnits mediumint(9) DEFAULT NULL,
-PaidToCharges decimal(10,2) DEFAULT NULL,
-AdjustedByExpected decimal(10,2) DEFAULT NULL,
-NewPatients mediumint(9) DEFAULT NULL,
-Visits mediumint(9) DEFAULT NULL,
-PRIMARY KEY (id),
-KEY DOS (DOS),
-KEY InsuranceCode (InsuranceCode),
-KEY InsuranceFC (InsuranceFC),
-KEY LocationCode (LocationCode)
+CREATE TABLE 'testAssignmentTable' (
+'id' int(10) NOT NULL AUTO_INCREMENT,
+'DOS' date DEFAULT NULL,
+'LocationCode' char(5) DEFAULT NULL,
+'InsuranceCode' char(5) DEFAULT NULL,
+'InsuranceFC' char(5) DEFAULT NULL,
+'ChargesExpected' decimal(10,2) DEFAULT NULL,
+'ChargeUnits' mediumint(9) DEFAULT NULL,
+'PaidToCharges' decimal(10,2) DEFAULT NULL,
+'AdjustedByExpected' decimal(10,2) DEFAULT NULL,
+'NewPatients' mediumint(9) DEFAULT NULL,
+'Visits' mediumint(9) DEFAULT NULL,
+PRIMARY KEY ('id'),
+KEY 'DOS' ('DOS'),
+KEY 'InsuranceCode' ('InsuranceCode'),
+KEY 'InsuranceFC' ('InsuranceFC'),
+KEY 'LocationCode' ('LocationCode')
 ) ENGINE=InnoDB AUTO_INCREMENT=196606 DEFAULT CHARSET=latin1
 ```
 Column explanation:
@@ -45,9 +45,9 @@ Assignments:
 3. Provide a MySQL query that produces the insurancecode and the average payments per visit for the insurancecode that had the highest average payments per visit in 2017.
 
 #1 Solution
-* Table name is too long, we can reduce it length to <code>test_table</code>.
-* Change all column names to lowercase.
-* Split two words in column with underscore _
+Avoid using any quotes. Writing SQL can be frustrating and writing SQL that involves quoted identifiers is even more frustrating.
+Using Lowercase. Identifiers should be written entirely in lower case. Tables, views, columns and etc. 
+Underscores separate words. Object name that are comprised of multiple words should be separeated by underscores.
 
 
 #3 Solution 
