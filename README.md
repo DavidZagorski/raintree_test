@@ -43,3 +43,23 @@ Assignments:
 2. Using the data in the data.csv, build a few example graphs/charts that you feel would be informative. You can use whatever software you like for the visualization (ie. Excel if it's the easiest)
 
 3. Provide a MySQL query that produces the insurancecode and the average payments per visit for the insurancecode that had the highest average payments per visit in 2017.
+
+
+
+
+
+
+#3 Solution 
+
+```SELECT<
+    InsuranceCode,
+    (sum(PaidToChanges)/sum(Visits)) as avg_price
+FROM 
+    testAssignmentTable
+WHERE DOS BETWEEN 
+    '2017-01-01' AND '2017-12-31'
+GROUP BY 
+    InsuranceCode
+ORDER BY 
+    avg_price DESC;
+```
