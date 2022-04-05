@@ -23,14 +23,14 @@ KEY LocationCode (LocationCode)
 Column explanation:
 
 DOS - The date the appointment took place on.<br>
-LocationCode - The location code for the clinic the appointment took place at. 
-InsuranceCode - The insurance responsible for covering the charges of the appointment. 
-InsuranceFC - Grouping of insurances of similar type/rules. 
-ChargesExpected - Charges expected to receive from the insurance for the appointment. 
-ChargeUnits - Metric of how many billable procedures/multiples of a procedure were performed. 
-PaidToCharges - Payments. 
-AdjustedByExpected - Charges that are written off for various reasons. 
-NewPatients - Number of patients who had their first visit. Visits - Total visits.
+LocationCode - The location code for the clinic the appointment took place at.<br>
+InsuranceCode - The insurance responsible for covering the charges of the appointment.<br> 
+InsuranceFC - Grouping of insurances of similar type/rules.<br> 
+ChargesExpected - Charges expected to receive from the insurance for the appointment.<br> 
+ChargeUnits - Metric of how many billable procedures/multiples of a procedure were performed.<br> 
+PaidToCharges - Payments.<br> 
+AdjustedByExpected - Charges that are written off for various reasons.<br> 
+NewPatients - Number of patients who had their first visit. Visits - Total visits.<br>
 
 Table explanation:
 
