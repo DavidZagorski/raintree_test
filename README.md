@@ -1,4 +1,4 @@
-# raik_test
+# test
 
 Create Table statement for the data included:
 CREATE TABLE testAssignmentTable (
