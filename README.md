@@ -1,6 +1,6 @@
 # test
 
-Create Table statement for the data included:
+```Create Table statement for the data included:
 CREATE TABLE testAssignmentTable (
 id int(10) NOT NULL AUTO_INCREMENT,
 DOS date DEFAULT NULL,
@@ -19,7 +19,7 @@ KEY InsuranceCode (InsuranceCode),
 KEY InsuranceFC (InsuranceFC),
 KEY LocationCode (LocationCode)
 ) ENGINE=InnoDB AUTO_INCREMENT=196606 DEFAULT CHARSET=latin1
-
+```
 Column explanation:
 
 DOS - The date the appointment took place on. 
