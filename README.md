@@ -44,9 +44,10 @@ Assignments:
 
 3. Provide a MySQL query that produces the insurancecode and the average payments per visit for the insurancecode that had the highest average payments per visit in 2017.
 
-
-
-
+#1 Solution
+* Table name is too long, we can reduce it length to <code>test_table</code>.
+* Change all column names to lowercase.
+* Split two words in column with underscore _
 
 
 #3 Solution 
