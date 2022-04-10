@@ -67,12 +67,12 @@ Assignments:
 
 
 #2 
-
+<hr>
 https://public.tableau.com/app/profile/davedevelop/viz/Raintree/RaintreeAnalysis
 
 
 #3 Solution 
-
+<hr>
 Option 1
 ```
 SELECT
