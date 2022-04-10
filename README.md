@@ -64,15 +64,15 @@ Assignments:
 7.)According to data ```LocationCode``` contain all values with 3 characters so we can change it from ```char(5)``` to ```char(3)```. Otherwise it's goine be padded with empty space.
 
 8.)We can also change ```InsuranceFC``` to ```VARCHAR``` cause the length in data is not fixed, like in ```LocationCode```
-
-
-#2 
 <hr>
-https://public.tableau.com/app/profile/davedevelop/viz/Raintree/RaintreeAnalysis
 
+#2 Solution<br>
+
+https://public.tableau.com/app/profile/davedevelop/viz/Raintree/RaintreeAnalysis
+<hr>
 
 #3 Solution 
-<hr>
+
 Option 1
 ```
 SELECT
