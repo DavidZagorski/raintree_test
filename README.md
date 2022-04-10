@@ -51,6 +51,7 @@ Assignments:
 <hr>
 1.)Change table name cause its too long. For example <code>test_table</code><br>
 
+
 2.)Avoid using any quotes. Writing SQL can be frustrating and writing SQL that involves quoted identifiers is even more frustrating.<br> 
 
 3.)Using Lowercase. Identifiers should be written entirely in lower case. Tables, views, columns and etc. <br> 
