@@ -1,5 +1,7 @@
 # Raintree_Assignment
 
+Test assignment for RainTree Estonia.
+
 ```Create Table statement for the data included:
 CREATE TABLE 'testAssignmentTable' (
 'id' int(10) NOT NULL AUTO_INCREMENT,
