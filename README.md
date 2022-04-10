@@ -69,6 +69,7 @@ https://public.tableau.com/views/Raintree/Dashboard1?:language=en-US&:display_co
 
 #3 Solution 
 
+Option 1
 ```
 SELECT
     InsuranceCode,
@@ -82,4 +83,23 @@ GROUP BY
 ORDER BY 
     avg_payment_per_visit DESC
 LIMIT 1
+```
+
+Option 2
+```
+SELECT 
+insurancecode,
+max(avg_payment_per_visit) as max
+FROM (
+SELECT 
+	insurancecode, sum(paidtocharges) / sum(visits) as avg_payment_per_visit
+FROM 
+	testassignmenttable
+WHERE DOS BETWEEN 
+	'2017-01-01' AND '2017-12-31'
+GROUP BY 
+	insurancecode
+ORDER BY
+	avg_payment_per_visit DESC
+    ) as highest_avg_payment;
 ```
