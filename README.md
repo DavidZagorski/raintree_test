@@ -61,6 +61,8 @@ Assignments:
 
 6.)PaidToCharges can be changed to <code>payments</code>. We can reduce column name length together with giving more precise naming. Similar issue is discussed in 5.).
 
+7.) According to data ```LocationCode``` contain all values with 3 characters so we can change it from ```char(5)``` to ```char(3)```
+
 
 #2 
 
