@@ -71,7 +71,7 @@ https://public.tableau.com/views/Raintree/Dashboard1?:language=en-US&:display_co
 
 ```
 SELECT
-	InsuranceCode,
+    InsuranceCode,
     sum(paidtocharges) / sum(visits) as avg_payment_per_visit
 FROM 
     testAssignmentTable
@@ -80,5 +80,6 @@ WHERE DOS BETWEEN
 GROUP BY 
     InsuranceCode
 ORDER BY 
-    avg_payment_per_visit DESC;
+    avg_payment_per_visit DESC
+LIMIT 1
 ```
