@@ -72,14 +72,14 @@ https://public.tableau.com/views/Raintree/Dashboard1?:language=en-US&:display_co
 Option 1
 ```
 SELECT
-    InsuranceCode,
+    insurancecode,
     sum(paidtocharges) / sum(visits) as avg_payment_per_visit
 FROM 
-    testAssignmentTable
+    testassignmenttable
 WHERE DOS BETWEEN 
     '2017-01-01' AND '2017-12-31'
 GROUP BY 
-    InsuranceCode
+    insuranceCode
 ORDER BY 
     avg_payment_per_visit DESC
 LIMIT 1
@@ -88,8 +88,8 @@ LIMIT 1
 Option 2
 ```
 SELECT 
-insurancecode,
-max(avg_payment_per_visit) as max
+	insurancecode,
+	max(avg_payment_per_visit) as max
 FROM (
 SELECT 
 	insurancecode, sum(paidtocharges) / sum(visits) as avg_payment_per_visit
