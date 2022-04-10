@@ -61,14 +61,14 @@ Assignments:
 
 6.)PaidToCharges can be changed to <code>payments</code>. We can reduce column name length together with giving more precise naming. Similar issue is discussed in 5.).
 
-7.)According to data ```LocationCode``` contain all values with 3 characters so we can change it from ```char(5)``` to ```char(3)```
+7.)According to data ```LocationCode``` contain all values with 3 characters so we can change it from ```char(5)``` to ```char(3)```. Otherwise it's goine be padded with empty space.
 
 8.)We can also change ```InsuranceFC``` to ```VARCHAR``` cause the length in data is not fixed, like in ```LocationCode```
 
 
 #2 
 
-https://public.tableau.com/views/Raintree/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/app/profile/davedevelop/viz/Raintree/RaintreeAnalysis
 
 
 #3 Solution 
